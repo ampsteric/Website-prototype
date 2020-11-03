@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>DashBoard - Sudans Tech</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="cp.css">
+<link rel="stylesheet" href="../navbar.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"><img src="../images/logo.png" alt=""></a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="../signup.html">Sign up</a>
+        <a href="../login.html">Login</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+<div class="grid-wrapper">
+ <nav>
+     <div class="left-banner">
+         <div class="three-dots">
+             <div class="red"></div>
+             <div class="yellow"></div>
+             <div class="green"></div>
+         </div>
+         <div class="three-dots">
+             <div class="grey"></div>
+             <div class="grey"></div>
+             <div class="grey"></div>
+         </div>
+     </div>
+     <div class="text-box">
+         <ol>
+             <li><i class='fas fa-inbox'></i> inbox</li>
+             <li><i class='far fa-star'></i> today</li>
+             <li><i class='far fa-calendar'></i> upcoming</li>
+             <li><i class='fas fa-hashtag'></i> important</li>
+             <li><i class='fas fa-users'></i> meetings</li>
+             <li><i class='fas fa-trash'></i> trash</li>
+         </ol>
+     </div>
+     <div class="text-box grey-text">
+         <ol>
+             <li><i class='fas fa-users'></i> family</li>
+             <li><i class='fas fa-sun'></i> vacation</li>
+             <li><i class='far fa-star'></i> festival</li>
+             <li><i class='fas fa-chart-line'></i> concepts</li>
+         </ol>
+     </div>
+ </nav>
+ <content>
+     <header>
+         <h>Today's Tasks</h>
+         <div class="header-row">
+             <a href="#">all</a>
+             <a href="#">important</a>
+             <a href="#">notes</a>
+             <a href="#">links</a>
+         </div>
+     </header>
+    <div class="tasks-wrapper">
+        <div class="primary-tasks">
+            <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Design thinking course implementation</div> 
+            <button id="approved">approved</button>
+        </div>
+        <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Learn HTML, CSS and JS</div>
+            <button id="progress"> in progress</button>
+        </div>
+        <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Turn in assignment tomorrow</div>
+            <button id="review">review</button>
+        </div>
+        <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Create UX User personas</div>
+            <button id="approved">approved</button>
+        </div>
+        <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Learn responsive web design</div>
+            <button id="progress"> in progress</button>
+        </div>
+        <div class="items-wrapper">
+            <div class="items"><input type="checkbox" id="checkbox" /> Complete project in C#</div>
+            <button id="review">review</button>
+        </div>
+        </div>
+    </div>
+    <div class="tasks-wrapper">
+        <div class="primary-tasks">
+            <h>upcoming tasks</h>
+            <div class="items-wrapper">
+                <div class="items"><input type="checkbox" id="checkbox" /> Build a mobile app with angular</div>
+                <button id="waiting">waiting</button>
+            </div>
+            <div class="items-wrapper">
+                <div class="items"><input type="checkbox" id="checkbox" /> Learn keyframe animations</div>
+                <button id="waiting">waiting</button>
+            </div>
+            <div class="items-wrapper">
+                <div class="items"><input type="checkbox" id="checkbox" /> Practice if else statement</div>
+                <button id="waiting">waiting</button>
+            </div>
+            <div class="items-wrapper">
+                <div class="items"><input type="checkbox" id="checkbox" /> Create a TODO list in Javascript</div>
+                <button id="waiting">waiting</button>
+              
+            </div>
+        </div>
+    </div>
+ </content>
+ <aside>
+     <div class="right-header">
+         <div class="right-banner">
+            <i class='fas fa-users'></i>
+         </div>
+         <h4>schedule</h4>
+     </div>
+     <div class="text-box column">
+         <div class="column">
+             <div class="schedule-box">
+                 <div class="time">
+                     8:30 AM - 9:30 AM
+                     <a href="#">product review</a> 
+                    </div>
+                    <div class="profile-circle-wrapper">
+                        <div class="profile-circle">
+                            <img src="https://i.pinimg.com/236x/50/8c/fe/508cfe84294b9e2b43f28634d777c7ed.jpg">
+                        </div>
+                        <div class="profile-circle">
+                            <img src="https://i.pinimg.com/236x/22/86/8a/22868a535123295ddf894d1e79941d87.jpg">
+                        </div>
+                        <div class="profile-circle">
+                            <img src="https://i.pinimg.com/236x/fa/65/06/fa65066b22d555c9c84778d1eb7bf4d8.jpg">
+                        </div>
+                        <div class="profile-circle">
+                            <img src="https://i.pinimg.com/236x/9c/db/75/9cdb75865799358b18915c1b2ef685b8.jpg">
+                        </div>
+                     </div>
+             </div>
+             <div class="schedule-box">
+                <div class="time">
+                    10:00 AM - 10:30 AM
+                    <a href="#">meeting with Sudans Tech team</a>
+                   </div>
+                   <div class="profile-circle-wrapper">
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/6f/20/2f/6f202ff777e1e252c6f78f7b52259eae.jpg">
+                    </div>
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/fe/c5/59/fec5595d66c653d4ccd54e62d0effc96.jpg">
+                    </div>
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/51/9a/a7/519aa79a48655a08ee9486e490f9acf2.jpg">
+                    </div>
+                 </div>
+            </div>
+            <div class="schedule-box">
+                <div class="time">
+                    10:30 AM - 11: 30 AM
+                    <a href="#">design brainstorming</a>
+                   </div>
+                   <div class="profile-circle-wrapper">
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/9c/12/11/9c1211128554d2bd6a080c98449ccf8d.jpg">
+                    </div>
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/27/ea/4d/27ea4dafa5ab6fdc8fcd36b948d4257c.jpg">
+                    </div>
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/b5/9c/ed/b59ced117befa02b3fd900ab24682944.jpg">
+                    </div>
+                    <div class="profile-circle">
+                        <img src="https://i.pinimg.com/236x/9a/9d/e9/9a9de97db01db0b171aa6527afa71859.jpg">
+                    </div>
+                 </div>
+            </div>
+            <div class="schedule-box">
+                <div class="time">
+                    12:30 PM - 1 PM
+                    <a href="#">collab with Sudans Tech</a>
+                   </div>
+                   <div class="profile-circle-wrapper">
+                   <div class="profile-circle">
+                    <img src="https://i.pinimg.com/236x/1b/9d/1f/1b9d1f18db2cfaa777444bfb3630fea3.jpg">
+                   </div>
+                   <div class="profile-circle">
+                    <img src="https://i.pinimg.com/236x/50/d9/b3/50d9b3b2fcf396ee7ac86b8d7fb14663.jpg">
+                   </div>
+                   <div class="profile-circle">
+                    <img src="https://i.pinimg.com/236x/89/f9/ce/89f9ce3d1bcbade83d0254e1b0986ad0.jpg">
+                   </div>
+                </div>
+            </div>
+         </div>
+     </div>
+ </aside>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+
+</body>
+</html>
